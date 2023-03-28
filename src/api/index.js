@@ -8,7 +8,7 @@ const json2string = require('./middlewares/json2string');
 const logger = require('./middlewares/logger');
 const errorLogger = require('./middlewares/error-logger');
 const config = require('../lib/config');
-const serverConfig = config.ws.ws;
+const serverConfig = config.ws;
 const WsAdapter = require('hermesjs-ws');
 const order = require('./routes/order.js');
 
