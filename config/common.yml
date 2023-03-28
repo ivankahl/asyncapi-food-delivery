@@ -1,0 +1,18 @@
+default:
+  app:
+    name: Food Delivery API
+    version: 1.0.0
+
+  ws:
+    port: 3000
+    path: /ws
+    topicSeparator: '__'
+
+
+development:
+
+test:
+
+staging:
+
+production:
